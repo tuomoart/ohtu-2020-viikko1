@@ -1,4 +1,10 @@
 /*tmp
 
-/build
-/.gradle
+/build/**
+/.gradle/**
+
+.classpath
+.project
+/.settings/**
+/.vscode/**
+/bin/**
