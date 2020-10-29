@@ -124,7 +124,7 @@ public class VarastoTest {
     public void eiLisataLiikaa() {
         varasto.lisaaVarastoon(100);
 
-        assertEquals(varasto.getTilavuus(), varasto.getSaldo()+1, vertailuTarkkuus);
+        assertEquals(varasto.getTilavuus(), varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
